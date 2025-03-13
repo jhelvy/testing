@@ -1,9 +1,6 @@
 project:
   type: website
   output-dir: _site
-  resources: 
-    - shinylive-sw.js
-    - keywords.csv
     
 website:  
   repo-url: https://github.com/jhelvy/testing
