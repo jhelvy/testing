@@ -1,0 +1,22 @@
+project:
+  type: website
+  output-dir: _site
+  resources: 
+    - shinylive-sw.js
+    - keywords.csv
+    
+website:  
+  repo-url: https://github.com/jhelvy/testing
+  repo-actions: [edit, issue]
+  title: "Testing"
+  navbar:
+    search: false
+    left:
+      - text: "Home"
+        file: index.qmd
+
+format:
+  html:
+    theme: [default, theme.scss]
+    page-layout: full
+    toc: true
